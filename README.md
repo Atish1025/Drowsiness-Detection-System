@@ -51,4 +51,3 @@ Add `shape_predictor_68_face_landmarks.dat` in the `models/` folder. Also includ
 
 ---
 
-Let me know if you also want a `README.md` or demo GIF/video instructions!
