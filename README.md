@@ -50,4 +50,21 @@ pip install opencv-python dlib imutils pygame mediapipe
 Add `shape_predictor_68_face_landmarks.dat` in the `models/` folder. Also include a `music.wav` alert sound in the project root.
 
 ---
+### 📸 Output Preview
+![Screenshot 2025-07-07 094001](https://github.com/user-attachments/assets/fbb85223-02c6-41eb-9757-01552794a8a6)
+---
+---
+### 🧪Real-Time Detection Output
+The terminal shows the drowsiness frame count, indicating how many consecutive frames the driver’s eyes appear closed. If it exceeds a safety threshold, an alert is triggered.
+
+* Drowsiness frame count: 6  
+* Drowsiness frame count: 7  
+* Drowsiness frame count: 8  
+* Drowsiness frame count: 9  
+* Drowsiness frame count: 1  
+...
+
+🔊 ALERT: Driver is drowsy!
+...
+
 
